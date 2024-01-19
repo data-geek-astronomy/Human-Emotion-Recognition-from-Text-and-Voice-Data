@@ -31,3 +31,8 @@ python main.py
 
 ## Contributing
 Contributions to this project are welcomed. Ensure that pull requests or changes are consistent with the existing code style and structure.
+
+
+## Acknowledgments
+* Special thanks to the creators of the BERT model and Hugging Face Transformers library.
+* Gratitude to the developers of the libraries and technologies utilized in this project.
