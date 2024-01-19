@@ -1,6 +1,6 @@
 # Human-Emotion-Recognition-from-Text-and-Voice-Data
 
-# Human Emotion Recognition from Text and Voice Data
+
 
 This project is a cutting-edge system designed to recognize human emotions from both textual and voice data. Utilizing advanced technologies such as deep learning, Natural Language Processing (NLP), and audio processing, the system boasts an impressive accuracy of 87%. Its applications are vast, including enhancements in human-computer interaction, customer service, and mental health support systems.
 
