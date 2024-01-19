@@ -1,37 +1,33 @@
 # Human-Emotion-Recognition-from-Text-and-Voice-Data
 
-Human Emotion Recognition from Text and Voice Data
-This project is an advanced system designed to recognize human emotions from both textual and voice data. It incorporates cutting-edge technologies including deep learning, Natural Language Processing (NLP), and audio processing. The system achieves an accuracy of 87% in emotion recognition, contributing significantly to fields like human-computer interaction, customer service, and mental health support systems.
+# Human Emotion Recognition from Text and Voice Data
 
-Features
-Text data processing using BERT for contextualized embeddings.
-Voice data processing using Mel-Frequency Cepstral Coefficients (MFCCs), CNNs, and RNNs for sequence modeling.
-A unified model combining features from both text and audio data using LSTMs and a Multi-Layer Perceptron (MLP).
-Evaluation metrics including precision, F1-score, and accuracy.
-Installation
-Ensure you have Python 3.x installed on your system. Then, install the required dependencies:
+This project is a cutting-edge system designed to recognize human emotions from both textual and voice data. Utilizing advanced technologies such as deep learning, Natural Language Processing (NLP), and audio processing, the system boasts an impressive accuracy of 87%. Its applications are vast, including enhancements in human-computer interaction, customer service, and mental health support systems.
 
-bash
-Copy code
-pip install -r requirements.txt
+## Features
+- Emotion recognition from text data using BERT for contextualized embeddings.
+- Voice data processing with Mel-Frequency Cepstral Coefficients (MFCCs), CNNs, and RNNs.
+- A unified LSTM and MLP-based model to integrate text and audio features.
+- Evaluation metrics implementation: precision, F1-score, and accuracy.
+
+## Installation
+Ensure Python 3.x is installed on your system. Install the required dependencies using:
+
+* pip install -r requirements.txt
+
 Project Structure
-text_processing/: Contains code for processing text data using BERT.
-voice_processing/: Contains code for voice data processing, including feature extraction.
-model/: Contains the LSTM and MLP model for emotion recognition.
-evaluation/: Contains code for evaluating the model (precision, F1-score, accuracy).
-main.py: Main script to run the project.
-Usage
-To run the project, execute the main.py script:
+* text_processing/: Code for processing text data with BERT.
+* voice_processing/: Code for voice data processing and feature extraction.
+* model/: LSTM and MLP model for emotion recognition.
+* evaluation/: Code for model evaluation (precision, F1-score, accuracy).
+* main.py: Main script to run the project.
 
-bash
-Copy code
+
+## Usage
+Execute the project with the following command:
+
 python main.py
-Contributing
-Contributions to this project are welcome. Please ensure that any pull requests or changes adhere to the existing coding style and structure.
 
-License
-This project is licensed under [SPECIFY LICENSE]. For more information, see LICENSE file.
 
-Acknowledgments
-Thanks to the developers of the BERT model and Hugging Face Transformers library.
-Appreciation for the libraries and technologies used in this project.
+## Contributing
+Contributions to this project are welcomed. Ensure that pull requests or changes are consistent with the existing code style and structure.
